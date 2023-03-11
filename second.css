@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding: 0;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #64686c;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    background-color: #3176c5;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 0 15%;
+}
+
+.vk-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.in{
+    background-color:  #0e3a6c;
+    border-radius: 15px;
+    border: none;
+    height: 27px;
+}
+
+.vk-container{
+    width: 12.6%;
+}
+
+.ob-container{
+    padding-top: 85px;
+    
+}
+
+main{
+    padding: 0 15%;
+    display: flex;
+}
+
+ul li{
+    color: #64686c;
+    padding-bottom: 18px;
+    font-size: smaller;
+}
+
+.first-div-list{
+    list-style: none;
+}
+
+.first-div{
+    width: 18%;
+}
+
+.second-div{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.second-div-iwi{
+   
+    background-color: white;
+    width: 96%;
+    
+}
+
+.iwi-first{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+.iwi-second{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+.poisk{
+    border: none;
+    width: 350px;
+}
+
+.find{
+    border: none;
+    background-color: #3176c5;
+    color: white;
+    padding: 4px 15px;
+    border-radius: 3px;
+}
+
+.all-friends{
+    width: 25%;
+}
+
+.friends-online{
+    width: 25%;
+}
+
+.find-friends{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.karta{
+    display: flex;
+    border-top: 1px solid rgb(194, 192, 192);
+    height: 100px;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+.karta-name{
+    color: #3176c5;
+    font-weight: bold;
+}
+
+.university{
+    color: gray;
+    padding: 4px 0;
+    font-size: smaller;
+}
+
+.message{
+    color: #83afde;
+    font-size: smaller;
+}
+
+.karta-description{
+    width: 50%;
+    padding-left: 20px;
+}
+
+.karta-icon{
+    width: 50px;
+    
+}
+
+.karta-icon img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.three-dots{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.third-div{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.third-bir{
+    background-color: white;
+    height: 230px;
+    width: 87%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.bir-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.third-eki{
+    background-color: white;
+    width: 87%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.potential-friends{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    padding: 5px 0;
+}
+
+.list:hover{
+    background-color: #83a3c7;
+    
+}
+
+.list:hover p{
+    color: black;
+    font-weight: bold;
+}
+
+.pot-karta{
+    display: flex;
+    height: 75px;
+    align-items: center;
+}
+
+.pot-karta-icon{
+    width: 50px;
+    
+}
+
+.pot-karta-description{
+    padding-left: 8px;
+}
+
+.pot-karta-icon img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.pot-name{
+    font-size: smaller;
+}
+
+.pot-name-friends{
+    font-size: smaller;
+    padding: 5px 0;
+}
+
+.follow{
+    font-size: smaller;
+    color: #83afde;
+
+}

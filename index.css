@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding: 0;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #64686c;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    background-color: #3176c5;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 0 15%;
+}
+
+.vk-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.in{
+    background-color:  #0e3a6c;
+    border-radius: 15px;
+    border: none;
+    height: 27px;
+}
+
+.vk-container{
+    width: 12.6%;
+}
+
+.ob-container{
+    padding-top: 85px;
+    
+}
+
+main{
+    padding: 0 15%;
+    display: flex;
+}
+
+ul li{
+    color: #64686c;
+    padding-bottom: 18px;
+    font-size: smaller;
+}
+
+.first-div-list{
+    list-style: none;
+}
+
+.first-div{
+    width: 18%;
+}
+
+.second-div{
+    width: 23%;
+}
+
+.second-div-iwi{
+    height: 260px;
+    background-color: white;
+    width: 90%;
+    padding: 10px;
+}
+
+.third-div{
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.casillas-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90%;
+    
+}
+
+.casillas-cont img{
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+}
+
+.redac-button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+}
+
+.redac-btn{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #64686c;
+}
+
+.second-div-iwi2{
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    height: 175px;
+    border-radius: 2px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second-asty{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 145px;
+}
+
+
+
+.second-asty-line{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.karta{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.karta p{
+    font-size: 11px;
+}
+
+.karta-image img{
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bir-name-online{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bir-bottom{
+    display: flex;
+    height: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.third-div-bir{
+    width: 94%;
+    background-color: white;
+    padding: 10px;
+    height: 300px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.bir-up{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bir-middle{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid  rgb(194, 192, 192);
+    border-top: 1px solid  rgb(194, 192, 192);
+    padding: 10px 0;
+    color: rgb(194, 192, 192);
+}
+
+
+
+.third-div-eki{
+    width: 94%;
+    background-color: white;
+    padding: 10px;
+    height: 148px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prof-photos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{
+    width: 23%;
+}
+
+.photo img{
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+.third-div-ush{
+    width: 94%;
+    background-color: white;
+    padding: 10px;
+    height: 265px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ush-usti{
+    display: flex;
+    height: 50px;
+}
+
+.ilyas-icon{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.ilyas-icon img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ilyas-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ush-asty{
+    height: fit-content;
+    padding-top: 5px;
+    
+}
+.ulken-text{
+    padding: 7px;
+}
